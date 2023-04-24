@@ -4,8 +4,8 @@ function age() {
   const y1 = document.getElementById("year").value;
   const date = new Date();
   const d2 = date.getDate();
-  const m2 = 1 + date.getMonth();
-  const y2 = date.getFullYear();
+  let m2 = 1 + date.getMonth();
+  let y2 = date.getFullYear();
   const month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
   if (d1 > d2) {
     m2 = m2 + 12;
