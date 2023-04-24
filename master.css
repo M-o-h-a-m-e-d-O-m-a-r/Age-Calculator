@@ -21,7 +21,6 @@ body{
   background-color: #eee;
   border-radius: 25px;
 }
-
 .base{
   width: 100%;
   overflow: hidden;
@@ -106,12 +105,7 @@ input[type="button"]:hover{
   line-height: 1.5;
   word-spacing: 2.7px;
   color: navy;
-  
 }
-
-
-/* Small */
-
 @media (max-width:379px){
   h4{
     font-size: 22px;
@@ -147,14 +141,7 @@ input[type="button"]:hover{
     width: 700px;
   }
 }
-/* 768 */
-/* Medium */
-@media (min-width:992px){
-}
-/* Large */
-@media (min-width:1200px){
 
-}
 
 
 
